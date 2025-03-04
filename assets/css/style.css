@@ -20,6 +20,46 @@ body,html{
     to{background-position:100px 0}
 }
 
+.slide-item {
+    position: relative;
+    text-align: center;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .slide-item {
+        position: relative;
+        text-align: center;
+    
+    }
+    
+    .slide-text {
+        position: absolute;
+        bottom: -13px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(115, 67, 45, 0.65);
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    
+}
+
 .min-h-full{
     min-height:100vh
 }
